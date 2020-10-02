@@ -15,7 +15,6 @@ Java LinkedList class can be used as a list, stack or queue.
  */
 
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
