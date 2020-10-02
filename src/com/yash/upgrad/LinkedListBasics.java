@@ -22,7 +22,7 @@ import java.util.LinkedList;
 public class LinkedListBasics {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
-        list.add("Dhoni");//Adding object in arraylist
+        list.add("Dhoni");//Adding object in linkedlist
         list.add("Kohli");
         list.add("Dravid");
         list.add("Ganguly");
@@ -68,7 +68,7 @@ public class LinkedListBasics {
         //Adding an element at the last position
         list.addLast("Jadeja");
 
-        //Removing specific element from arraylist
+        //Removing specific element from linkedlist
         list.remove("Saini");
         System.out.println("After invoking remove(object) method: "+list);
         //Removing element on the basis of specific position
